@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov 28 08:49:11 2023
+# Process ID: 17396
+# Current directory: C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/CPE-133-Final-Lab
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19736 C:\Users\Wyatt\Documents\Vivado\Final_Project\CPE-133-Final-Lab\CPE-133-Final-Lab\CPE-133-Final-Lab.xpr
+# Log file: C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/CPE-133-Final-Lab/vivado.log
+# Journal file: C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/CPE-133-Final-Lab\vivado.jou
+# Running On: MSI, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 8403 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/CPE-133-Final-Lab/CPE-133-Final-Lab.xpr
+save_project_as project_1 C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1 -force
+file mkdir C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new
+close [ open C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/FSM_IR.sv w ]
+add_files C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/FSM_IR.sv
+update_compile_order -fileset sources_1
+open_project C:/Users/Wyatt/Documents/Vivado/Lab6_Wyatt/Lab6_Wyatt.xpr
+update_compile_order -fileset sources_1
+current_project project_1
+close_project
