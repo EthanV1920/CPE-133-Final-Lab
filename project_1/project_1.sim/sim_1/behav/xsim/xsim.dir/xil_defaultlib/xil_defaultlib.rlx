@@ -3,8 +3,9 @@
 Apr 18 2022
 16:05:34
 C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,uvm,,,,,,
-C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sim_1/new/FSM_TB.sv,1701298012,systemVerilog,,,,FSM_TB,,uvm,,,,,,
-C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/FSM_IR.sv,1701295996,systemVerilog,,C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/IR_Test.sv,,FSM_IR,,uvm,,,,,,
-C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/IR_Test.sv,1701300985,systemVerilog,,C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/ShiftRegister.sv,,IR_Test,,uvm,,,,,,
+C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sim_1/new/FSM_TB.sv,1701729734,systemVerilog,,,,FSM_TB,,uvm,,,,,,
+C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/FSM_Decoder.sv,1701733617,systemVerilog,,C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/FSM_IR.sv,,FSM_Decoder,,uvm,,,,,,
+C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/FSM_IR.sv,1701732140,systemVerilog,,C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/IR_Test.sv,,FSM_IR,,uvm,,,,,,
+C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/IR_Test.sv,1701730934,systemVerilog,,C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sim_1/new/FSM_TB.sv,,IR_Test,,uvm,,,,,,
 C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/ShiftRegister.sv,1701299872,systemVerilog,,C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sim_1/new/FSM_TB.sv,,ShiftRegister,,uvm,,,,,,
-C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/clock_div2.vhd,1701303252,vhdl,,,,clk_div2,,,,,,,,
+C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/clock_div2.vhd,1701558387,vhdl,,,,clk_div2,,,,,,,,

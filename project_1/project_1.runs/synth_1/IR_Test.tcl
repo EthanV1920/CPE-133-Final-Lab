@@ -73,6 +73,7 @@ OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
 set_param chipscope.maxJobs 1
 set_param xicom.use_bs_reader 1
+set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
@@ -90,8 +91,8 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
+  C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/FSM_Decoder.sv
   C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/FSM_IR.sv
-  C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/ShiftRegister.sv
   C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/IR_Test.sv
 }
 read_vhdl -library xil_defaultlib C:/Users/Wyatt/Documents/Vivado/Final_Project/CPE-133-Final-Lab/project_1/project_1.srcs/sources_1/new/clock_div2.vhd

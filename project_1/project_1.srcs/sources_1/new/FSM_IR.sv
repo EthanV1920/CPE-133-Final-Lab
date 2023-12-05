@@ -12,7 +12,7 @@
 // Description: Uses an FSM to decode a 38kHz IR signal from a remote, 
 //              to add +/- 1 to a variable controlling the position of a servo motor
 // 
-// Dependencies: Needs clk to run at 38k Hz
+// Dependencies: FSM IR Bit Decoder
 // 
 // Revision: 1.0
 // Revision 0.01 - File Created
@@ -24,7 +24,7 @@
 module FSM_IR(
 input clk,
 input IR,
-output logic [7:0] PWM_0, PWM_1, PWM_2
+output logic [1:0] PWM_0, PWM_1, PWM_2
     );
     
     typedef enum {Start, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, 
@@ -131,7 +131,7 @@ output logic [7:0] PWM_0, PWM_1, PWM_2
         end
         a16://0110001010011101
         begin
-        PWM_1 = 8'h01;
+        PWM_1 = 2'b01;
         NS = Start;
         end
         b2://00
@@ -201,7 +201,7 @@ output logic [7:0] PWM_0, PWM_1, PWM_2
         end
         b15://010100001010111
         begin
-        PWM_1 = 8'hFF;
+        PWM_1 = 2'b11;
         NS = Start;
         end
         c3://001
@@ -271,7 +271,7 @@ output logic [7:0] PWM_0, PWM_1, PWM_2
         end
         c16://0010001011011101
         begin
-        PWM_0 = 8'hFF;
+        PWM_0 = 2'b11;
         NS = Start;
         end
         d3://000
@@ -336,7 +336,7 @@ output logic [7:0] PWM_0, PWM_1, PWM_2
         end
         d15://001000001101111
         begin
-        PWM_2 = 8'h01;
+        PWM_2 = 2'b01;
         NS = Start;
         end
         e5://00000
@@ -386,7 +386,7 @@ output logic [7:0] PWM_0, PWM_1, PWM_2
         end
         e14://00001000111101
         begin
-        PWM_0 = 8'h01;
+        PWM_0 = 2'b01;
         NS = Start;
         end
         f7://0000000
@@ -421,7 +421,7 @@ output logic [7:0] PWM_0, PWM_1, PWM_2
         end
         f13://0000000011111
         begin
-        PWM_2 = 8'hFF;
+        PWM_2 = 2'b11;
         NS = Start;
         end
     default:
