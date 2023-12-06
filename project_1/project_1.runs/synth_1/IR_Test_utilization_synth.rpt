@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
-| Date         : Mon Dec  4 15:50:09 2023
+| Date         : Tue Dec  5 15:45:26 2023
 | Host         : MSI running 64-bit major release  (build 9200)
 | Command      : report_utilization -file IR_Test_utilization_synth.rpt -pb IR_Test_utilization_synth.pb
 | Design       : IR_Test
@@ -91,7 +91,7 @@ Table of Contents
 +-----------------------------+------+-------+------------+-----------+-------+
 |          Site Type          | Used | Fixed | Prohibited | Available | Util% |
 +-----------------------------+------+-------+------------+-----------+-------+
-| Bonded IOB                  |   12 |     0 |          0 |       106 | 11.32 |
+| Bonded IOB                  |   10 |     0 |          0 |       106 |  9.43 |
 | Bonded IPADs                |    0 |     0 |          0 |        10 |  0.00 |
 | Bonded OPADs                |    0 |     0 |          0 |         4 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |          0 |         5 |  0.00 |
@@ -152,7 +152,7 @@ Table of Contents
 +----------+------+---------------------+
 | FDRE     |  111 |        Flop & Latch |
 | LUT4     |   22 |                 LUT |
-| OBUF     |   10 |                  IO |
+| OBUF     |    8 |                  IO |
 | CARRY4   |    8 |          CarryLogic |
 | LUT5     |    7 |                 LUT |
 | LUT6     |    6 |                 LUT |
