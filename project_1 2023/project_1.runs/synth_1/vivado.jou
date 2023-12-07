@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Thu Dec  7 05:35:41 2023
+# Process ID: 9396
+# Current directory: Z:/Documents/git/CPE-133-Final-Lab/project_1 2023/project_1.runs/synth_1
+# Command line: vivado.exe -log IR_Test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source IR_Test.tcl
+# Log file: Z:/Documents/git/CPE-133-Final-Lab/project_1 2023/project_1.runs/synth_1/IR_Test.vds
+# Journal file: Z:/Documents/git/CPE-133-Final-Lab/project_1 2023/project_1.runs/synth_1\vivado.jou
+# Running On: ETHANVOSBURAA6F, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 1, Host memory: 8584 MB
+#-----------------------------------------------------------
+source IR_Test.tcl -notrace

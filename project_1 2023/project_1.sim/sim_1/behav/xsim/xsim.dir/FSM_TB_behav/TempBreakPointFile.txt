@@ -1,0 +1,5 @@
+Breakpoint File Version 1.0
+76,true,"Z:/Documents/git/CPE-133-Final-Lab/project_1 2023/project_1.srcs/sources_1/new/DEC.sv"
+92,true,"Z:/Documents/git/CPE-133-Final-Lab/project_1 2023/project_1.srcs/sources_1/new/DEC.sv"
+66,true,"Z:/Documents/git/CPE-133-Final-Lab/project_1 2023/project_1.srcs/sources_1/new/DEC.sv"
+83,true,"Z:/Documents/git/CPE-133-Final-Lab/project_1 2023/project_1.srcs/sources_1/new/DEC.sv"

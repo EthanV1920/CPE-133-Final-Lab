@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FSM_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FSM_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="110,000,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="500.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="488"></NameColumnWidth>
+      <ValueColumnWidth column_width="191"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject type="divider" fp_name="divider167">
+      <obj_property name="label">FSM1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/FSM1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/FSM1/IR" type="logic">
+      <obj_property name="ElementShortName">IR</obj_property>
+      <obj_property name="ObjectShortName">IR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/FSM1/IR_Bit" type="logic">
+      <obj_property name="ElementShortName">IR_Bit</obj_property>
+      <obj_property name="ObjectShortName">IR_Bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/FSM1/clk_out" type="logic">
+      <obj_property name="ElementShortName">clk_out</obj_property>
+      <obj_property name="ObjectShortName">clk_out</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider159">
+      <obj_property name="label">FSM2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/FSM2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/FSM2/IR" type="logic">
+      <obj_property name="ElementShortName">IR</obj_property>
+      <obj_property name="ObjectShortName">IR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/FSM2/PWM_0" type="array">
+      <obj_property name="ElementShortName">PWM_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/FSM2/PWM_1" type="array">
+      <obj_property name="ElementShortName">PWM_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_1[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/FSM2/PWM_2" type="array">
+      <obj_property name="ElementShortName">PWM_2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_2[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider160">
+      <obj_property name="label">DEC1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_1/fsm_in" type="array">
+      <obj_property name="ElementShortName">fsm_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_1/state" type="array">
+      <obj_property name="ElementShortName">state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_1/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_1/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_1/q" type="array">
+      <obj_property name="ElementShortName">q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">q[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_0/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_1/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_2/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider161">
+      <obj_property name="label">POS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/POS_ACC_1/fsm_in" type="array">
+      <obj_property name="ElementShortName">fsm_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/POS_ACC_1/q" type="array">
+      <obj_property name="ElementShortName">q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">q[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider162">
+      <obj_property name="label">PWM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/PWM_D_1/pos_in" type="array">
+      <obj_property name="ElementShortName">pos_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pos_in[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/PWM_D_1/pwm_out" type="logic">
+      <obj_property name="ElementShortName">pwm_out</obj_property>
+      <obj_property name="ObjectShortName">pwm_out</obj_property>
+   </wvobject>
+</wave_config>

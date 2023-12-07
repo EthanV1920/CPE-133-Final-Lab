@@ -27,41 +27,76 @@ module DEC(
     output logic clear
     );
 
-    typedef enum {S0, S1, S2} STATES;
+    // always_ff@(posedge clk) begin
+    //     // state <= next_state;
+    //     begin
+    //         case (fsm_in)
+    //             2'b01:
+    //                 begin
+    //                     q <= 2'b01;
+    //                     clear <= 1'b1;
+    //                 end
+    //             2'b11:
+    //                 begin
+    //                     q <= 2'b11;
+    //                     clear <= 1'b1;
+    //                 end
+    //             default:
+    //                 begin
+    //                     q <= 2'b00;
+    //                     clear <= 1'b0;
+    //                 end     
+    //         endcase
+    //     end
+    // end
 
-    STATES state, next_state;
+    typedef enum {S0, S1, S2, S3} STATES;
 
-    always_ff@(posedge clk) begin
+    STATES state, next_state = S0;
+
+    always_ff@(negedge clk) begin
         state <= next_state;
     end
 
     always_comb
     begin
-        next_state = S0;
         case (fsm_in)
             2'b01:
                 case(state)
                     S0: next_state <= S1;
-                    S1: 
+                    S1: next_state <= S2;
+                    S2: 
                         begin
                             q <= 2'b01;
                             clear <= 1'b1;
+                            next_state <= S3;
+                        end
+                    S3:
+                        begin
+                            q <= 2'b00;
+                            next_state <= S0;
                         end
                     default: next_state <= S0;
                 endcase
             2'b11:
                 case(state)
                     S0: next_state <= S1;
-                    S1: 
+                    S1: next_state <= S2;
+                    S2: 
                         begin
                             q <= 2'b11;
                             clear <= 1'b1;
+                        end
+                    S3:
+                        begin
+                            q <= 2'b00;
+                            next_state <= S0;
                         end
                     default: next_state <= S0;
                 endcase
             default:
                 begin
-                    q <= 2'b00;
+                    q <= 0;
                     clear <= 1'b0;
                 end     
         endcase

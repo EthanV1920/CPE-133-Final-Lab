@@ -1,0 +1,101 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
+| Date         : Thu Dec  7 05:40:02 2023
+| Host         : ETHANVOSBURAA6F running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file IR_Test_control_sets_placed.rpt
+| Design       : IR_Test
+| Device       : xc7a35ti
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    23 |
+|    Minimum number of control sets                        |    23 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    83 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    23 |
+| >= 0 to < 4        |     9 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     6 |
+| >= 10 to < 12      |     3 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              15 |           10 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             171 |           42 |
+| Yes          | No                    | No                     |              27 |           13 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              24 |            7 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+----------------------------------------+-------------------------------------+------------------+----------------+--------------+
+|          Clock Signal         |              Enable Signal             |           Set/Reset Signal          | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------------------+----------------------------------------+-------------------------------------+------------------+----------------+--------------+
+|  FSM2/FSM_onehot_PS_reg[53]_1 |                                        |                                     |                1 |              1 |         1.00 |
+|  FSM2/FSM_onehot_PS_reg[44]_1 |                                        |                                     |                1 |              1 |         1.00 |
+|  FSM2/FSM_onehot_PS_reg[16]_1 |                                        |                                     |                1 |              1 |         1.00 |
+|  debug_1_OBUF_BUFG            |                                        |                                     |                1 |              1 |         1.00 |
+|  pwm_out_reg_i_2_n_0          | PWM_D_0/pwm_out_i_1_n_0                |                                     |                1 |              1 |         1.00 |
+|  pwm_out_reg_i_2_n_0          | PWM_D_1/pwm_out_i_1__0_n_0             |                                     |                1 |              1 |         1.00 |
+|  pwm_out_reg_i_2_n_0          | PWM_D_2/pwm_out_i_1__1_n_0             |                                     |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                |                                        |                                     |                2 |              2 |         1.00 |
+|  SCLK_0_BUFG                  |                                        |                                     |                1 |              3 |         3.00 |
+| ~SCLK_0_BUFG                  |                                        |                                     |                3 |              6 |         2.00 |
+|  SCLK_0_BUFG                  | POS_ACC_0/q[7]_i_1_n_0                 |                                     |                4 |              8 |         2.00 |
+|  SCLK_0_BUFG                  | POS_ACC_1/q[7]_i_1__0_n_0              |                                     |                2 |              8 |         4.00 |
+|  SCLK_0_BUFG                  | POS_ACC_2/q[7]_i_1__1_n_0              |                                     |                4 |              8 |         2.00 |
+|  pwm_out_reg_i_2_n_0          | PWM_D_0/sel                            | PWM_D_0/clear                       |                3 |              8 |         2.67 |
+|  pwm_out_reg_i_2_n_0          | PWM_D_1/duty0_inferred__0/i__carry_n_0 | PWM_D_1/period[10]_i_1__0_n_0       |                2 |              8 |         4.00 |
+|  pwm_out_reg_i_2_n_0          | PWM_D_2/duty0_inferred__0/i__carry_n_0 | PWM_D_2/period[10]_i_1__1_n_0       |                2 |              8 |         4.00 |
+|  pwm_out_reg_i_2_n_0          |                                        | PWM_D_0/clear                       |                4 |             11 |         2.75 |
+|  pwm_out_reg_i_2_n_0          |                                        | PWM_D_1/period[10]_i_1__0_n_0       |                3 |             11 |         3.67 |
+|  pwm_out_reg_i_2_n_0          |                                        | PWM_D_2/period[10]_i_1__1_n_0       |                3 |             11 |         3.67 |
+|  clk_IBUF_BUFG                |                                        | SCLK_D_0/my_div.div_cnt[31]_i_1_n_0 |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG                |                                        | SCLK_D_1/tmp_clk                    |                9 |             32 |         3.56 |
+|  debug_1_OBUF_BUFG            |                                        | FSM1/FSM_sequential_PS_reg[0]_0     |                5 |             35 |         7.00 |
+|  debug_1_OBUF_BUFG            |                                        | FSM1/FSM_sequential_PS_reg[1]_0     |                9 |             39 |         4.33 |
++-------------------------------+----------------------------------------+-------------------------------------+------------------+----------------+--------------+
+
+

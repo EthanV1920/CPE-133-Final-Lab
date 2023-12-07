@@ -37,7 +37,7 @@ assign GND = 0;
 
 assign FSM_CLK_IN = 1 & FSM_CLK_OUT;
 
-clk_div2 SlowClock (
+clk_div2_0 SlowClock (
     .clk(clk),
     .sclk(SCLK_1)
     );
