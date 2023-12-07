@@ -1,83 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1701819831">
-  <File Type="ROUTE-PWR" Name="IR_Test_power_routed.rpt"/>
   <File Type="PA-TCL" Name="IR_Test.tcl"/>
-  <File Type="BITSTR-MMI" Name="IR_Test.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="IR_Test_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="IR_Test_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="IR_Test_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="IR_Test_reports.tcl"/>
-  <File Type="OPT-TIMING" Name="IR_Test_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="IR_Test_opt.dcp"/>
-  <File Type="OPT-DRC" Name="IR_Test_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="IR_Test.hwdef"/>
-  <File Type="PWROPT-DCP" Name="IR_Test_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="IR_Test_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="IR_Test_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="IR_Test_placed.dcp"/>
-  <File Type="PLACE-IO" Name="IR_Test_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="IR_Test_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="IR_Test_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="IR_Test_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="IR_Test_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="IR_Test_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="IR_Test_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="IR_Test.bin"/>
-  <File Type="PLACE-TIMING" Name="IR_Test_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="IR_Test_postplace_pwropt.dcp"/>
   <File Type="BITSTR-MSK" Name="IR_Test.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="IR_Test_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="IR_Test_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="IR_Test_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="IR_Test.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="IR_Test_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="IR_Test_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="IR_Test_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="IR_Test_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="IR_Test_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="IR_Test_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="IR_Test_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="IR_Test_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="IR_Test_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="IR_Test_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="IR_Test_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="IR_Test_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="IR_Test_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="IR_Test_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="IR_Test_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="IR_Test_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="IR_Test_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="IR_Test_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="IR_Test_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="IR_Test_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="IR_Test_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="IR_Test_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="IR_Test_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="IR_Test_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="IR_Test_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="IR_Test_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="IR_Test_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="IR_Test.vdi"/>
   <File Type="BG-BIT" Name="IR_Test.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="IR_Test_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="IR_Test_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-DRC" Name="IR_Test.drc"/>
+  <File Type="BG-BGN" Name="IR_Test.bgn"/>
+  <File Type="BG-BIN" Name="IR_Test.bin"/>
+  <File Type="BITSTR-RBT" Name="IR_Test.rbt"/>
   <File Type="BITSTR-NKY" Name="IR_Test.nky"/>
   <File Type="BITSTR-BMM" Name="IR_Test_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="IR_Test.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="IR_Test.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="IR_Test.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="IR_Test.hwdef"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="IR_Test_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="IR_Test_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="IR_Test_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="IR_Test_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="IR_Test_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="IR_Test_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="IR_Test_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="IR_Test_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="IR_Test_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="IR_Test_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="IR_Test_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="IR_Test_postroute_physopt_bb.dcp"/>
   <File Type="PDI-FILE" Name="IR_Test.pdi"/>
   <File Type="RCFI_FILE" Name="IR_Test.rcfi"/>
   <File Type="CFI_FILE" Name="IR_Test.cfi"/>
   <File Type="RNPI_FILE" Name="IR_Test.rnpi"/>
   <File Type="NPI_FILE" Name="IR_Test.npi"/>
   <File Type="RBD_FILE" Name="IR_Test.rbd"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="IR_Test.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="IR_Test.sysdef"/>
-  <File Type="BG-BGN" Name="IR_Test.bgn"/>
-  <File Type="BG-DRC" Name="IR_Test.drc"/>
-  <File Type="RDI-RDI" Name="IR_Test.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="IR_Test_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="IR_Test_postroute_physopted.rqs"/>
-  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
@@ -159,5 +119,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

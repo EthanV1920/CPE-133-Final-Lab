@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FSM_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FSM_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="69.593613934 ms"></ZoomEndTime>
+      <Cursor1Time time="100.000000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="533"></NameColumnWidth>
+      <ValueColumnWidth column_width="259"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/FSM_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/IR" type="logic">
+      <obj_property name="ElementShortName">IR</obj_property>
+      <obj_property name="ObjectShortName">IR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/SCLK_1" type="logic">
+      <obj_property name="ElementShortName">SCLK_1</obj_property>
+      <obj_property name="ObjectShortName">SCLK_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/PWM_0" type="array">
+      <obj_property name="ElementShortName">PWM_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/FSM2/PWM_0" type="array">
+      <obj_property name="ElementShortName">PWM_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/PWM_1" type="array">
+      <obj_property name="ElementShortName">PWM_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_1/fsm_in" type="array">
+      <obj_property name="ElementShortName">fsm_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/PWM_1" type="array">
+      <obj_property name="ElementShortName">PWM_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/PWM_2" type="array">
+      <obj_property name="ElementShortName">PWM_2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/PWM_0" type="array">
+      <obj_property name="ElementShortName">PWM_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_0/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_TB/UUT/DEC_1/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+</wave_config>
