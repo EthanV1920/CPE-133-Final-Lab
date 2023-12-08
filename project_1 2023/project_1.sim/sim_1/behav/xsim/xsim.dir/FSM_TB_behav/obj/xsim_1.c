@@ -65,6 +65,7 @@ IKI_DLLESPEC extern void execute_56(char*, char *);
 IKI_DLLESPEC extern void execute_57(char*, char *);
 IKI_DLLESPEC extern void execute_58(char*, char *);
 IKI_DLLESPEC extern void vlog_simple_process_execute_0_fast_no_reg_no_agg(char*, char*, char*);
+IKI_DLLESPEC extern void execute_62(char*, char *);
 IKI_DLLESPEC extern void execute_64(char*, char *);
 IKI_DLLESPEC extern void vlog_const_rhs_process_execute_0_fast_no_reg_no_agg(char*, char*, char*);
 IKI_DLLESPEC extern void execute_71(char*, char *);
@@ -124,12 +125,12 @@ IKI_DLLESPEC extern void transaction_56(char*, char*, unsigned, unsigned, unsign
 IKI_DLLESPEC extern void transaction_60(char*, char*, unsigned, unsigned, unsigned);
 IKI_DLLESPEC extern void transaction_64(char*, char*, unsigned, unsigned, unsigned);
 IKI_DLLESPEC extern void transaction_68(char*, char*, unsigned, unsigned, unsigned);
-funcp funcTab[70] = {(funcp)execute_49, (funcp)execute_50, (funcp)execute_93, (funcp)execute_94, (funcp)execute_95, (funcp)execute_96, (funcp)execute_97, (funcp)execute_56, (funcp)execute_57, (funcp)execute_58, (funcp)vlog_simple_process_execute_0_fast_no_reg_no_agg, (funcp)execute_64, (funcp)vlog_const_rhs_process_execute_0_fast_no_reg_no_agg, (funcp)execute_71, (funcp)execute_72, (funcp)execute_73, (funcp)execute_74, (funcp)execute_75, (funcp)execute_76, (funcp)execute_77, (funcp)execute_78, (funcp)execute_79, (funcp)execute_80, (funcp)execute_81, (funcp)execute_82, (funcp)execute_83, (funcp)execute_84, (funcp)execute_85, (funcp)execute_86, (funcp)execute_87, (funcp)execute_88, (funcp)execute_89, (funcp)execute_90, (funcp)execute_91, (funcp)execute_92, (funcp)execute_13, (funcp)execute_15, (funcp)execute_17, (funcp)execute_18, (funcp)execute_20, (funcp)execute_21, (funcp)execute_23, (funcp)execute_24, (funcp)execute_25, (funcp)execute_35, (funcp)execute_36, (funcp)execute_44, (funcp)execute_52, (funcp)execute_53, (funcp)execute_54, (funcp)execute_55, (funcp)execute_98, (funcp)execute_99, (funcp)execute_100, (funcp)execute_101, (funcp)execute_102, (funcp)execute_103, (funcp)transaction_5, (funcp)vlog_transfunc_eventcallback, (funcp)transaction_43, (funcp)vhdl_transfunc_eventcallback, (funcp)transaction_45, (funcp)transaction_47, (funcp)transaction_48, (funcp)transaction_52, (funcp)vlog_transfunc_eventcallback_2state, (funcp)transaction_56, (funcp)transaction_60, (funcp)transaction_64, (funcp)transaction_68};
-const int NumRelocateId= 70;
+funcp funcTab[71] = {(funcp)execute_49, (funcp)execute_50, (funcp)execute_93, (funcp)execute_94, (funcp)execute_95, (funcp)execute_96, (funcp)execute_97, (funcp)execute_56, (funcp)execute_57, (funcp)execute_58, (funcp)vlog_simple_process_execute_0_fast_no_reg_no_agg, (funcp)execute_62, (funcp)execute_64, (funcp)vlog_const_rhs_process_execute_0_fast_no_reg_no_agg, (funcp)execute_71, (funcp)execute_72, (funcp)execute_73, (funcp)execute_74, (funcp)execute_75, (funcp)execute_76, (funcp)execute_77, (funcp)execute_78, (funcp)execute_79, (funcp)execute_80, (funcp)execute_81, (funcp)execute_82, (funcp)execute_83, (funcp)execute_84, (funcp)execute_85, (funcp)execute_86, (funcp)execute_87, (funcp)execute_88, (funcp)execute_89, (funcp)execute_90, (funcp)execute_91, (funcp)execute_92, (funcp)execute_13, (funcp)execute_15, (funcp)execute_17, (funcp)execute_18, (funcp)execute_20, (funcp)execute_21, (funcp)execute_23, (funcp)execute_24, (funcp)execute_25, (funcp)execute_35, (funcp)execute_36, (funcp)execute_44, (funcp)execute_52, (funcp)execute_53, (funcp)execute_54, (funcp)execute_55, (funcp)execute_98, (funcp)execute_99, (funcp)execute_100, (funcp)execute_101, (funcp)execute_102, (funcp)execute_103, (funcp)transaction_5, (funcp)vlog_transfunc_eventcallback, (funcp)transaction_43, (funcp)vhdl_transfunc_eventcallback, (funcp)transaction_45, (funcp)transaction_47, (funcp)transaction_48, (funcp)transaction_52, (funcp)vlog_transfunc_eventcallback_2state, (funcp)transaction_56, (funcp)transaction_60, (funcp)transaction_64, (funcp)transaction_68};
+const int NumRelocateId= 71;
 
 void relocate(char *dp)
 {
-	iki_relocate(dp, "xsim.dir/FSM_TB_behav/xsim.reloc",  (void **)funcTab, 70);
+	iki_relocate(dp, "xsim.dir/FSM_TB_behav/xsim.reloc",  (void **)funcTab, 71);
 	iki_vhdl_file_variable_register(dp + 24696);
 	iki_vhdl_file_variable_register(dp + 24752);
 

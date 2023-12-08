@@ -71,9 +71,8 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
-set_param chipscope.maxJobs 1
-set_param synth.incrementalSynthesisCache C:/Users/ethanvosburg/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12892-ETHANVOSBURAA6F/incrSyn
-set_param xicom.use_bs_reader 1
+set_param general.maxThreads 8
+set_param synth.incrementalSynthesisCache C:/Users/ethanvosburg/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-592-ETHANVOSBURAA6F/incrSyn
 set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
@@ -134,7 +133,6 @@ set_param constraints.enableBinaryConstraints false
 write_checkpoint -force -noxdef IR_Test.dcp
 OPTRACE "write_checkpoint" END { }
 OPTRACE "synth reports" START { REPORT }
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file IR_Test_utilization_synth.rpt -pb IR_Test_utilization_synth.pb"
 OPTRACE "synth reports" END { }
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]

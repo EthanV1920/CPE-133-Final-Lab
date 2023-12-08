@@ -71,8 +71,8 @@ FSM_IR FSM2 (
 
 assign debug_0 = FSM_CLK_OUT;
 assign debug_1 = FSM_CLK_IN;
-assign debug_2 = DEC_CLR_0;
-assign debug_3 = DEC_CLR_1;
+assign debug_2 = DEC_CLR_2;
+assign debug_3 = FSM_DEC_2[0];
 assign debug_4 = DEC_CLR_2;
 assign debug_5 = FSM_DEC_2[0];
 
