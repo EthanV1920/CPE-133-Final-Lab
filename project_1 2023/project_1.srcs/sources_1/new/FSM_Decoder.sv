@@ -22,22 +22,33 @@
 
 
 module FSM_Decoder(
-input clk,
-input IR,
-output logic IR_Bit, 
-output logic clk_out
+    // Inputs
+    input clk, // Clock input
+    input IR, // IR input
+
+    // Outputs
+    output logic IR_Bit, // IR output logic
+    output logic clk_out // Clock output logic
     );
+
+    // Defined states for delay
     typedef enum {Start, a, b, c, d, e} STATES;
+    
+    // Defines the current and next state
     STATES PS, NS;
+
+    // Clock logic
     always_ff@(posedge clk)
     begin
-    PS <= NS;
+        PS <= NS;
     end   
     
+    // State logic
     always_comb
     begin
-    IR_Bit = 0;
-    clk_out = 0;
+        // Set IR_Bit and clk_out to 0
+        IR_Bit = 0;
+        clk_out = 0;
     case (PS)
         Start:
         begin

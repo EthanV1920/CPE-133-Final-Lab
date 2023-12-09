@@ -1,13 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Cal Poly SLO   
+// Engineer: Wyatt Tack
 // 
 // Create Date: 11/29/2023 01:59:28 PM
-// Design Name: 
+// Design Name: Robot Arm Test Bench
 // Module Name: FSM_TB
-// Project Name: 
-// Target Devices: 
+// Project Name: Robotic Arm
+// Target Devices: Basys 3 Development Board
 // Tool Versions: 
 // Description: 
 // 
@@ -25,7 +25,7 @@ logic clk;
 logic IR;
 logic PWM_0, PWM_1, PWM_2;
 
-IR_Test UUT (.clk(clk), .IR(IR), .PWM_0(PWM_0), .PWM_1(PWM_1), .PWM_2(PWM_2));
+Robot_Arm UUT (.clk(clk), .IR(IR), .PWM_0(PWM_0), .PWM_1(PWM_1), .PWM_2(PWM_2));
 
 always begin//100 MHz, 10ns Period
 clk = 1;
@@ -36,40 +36,13 @@ end
 
 always begin
 IR = 1;
-#100000;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-
+#6287500;
 
 IR = 0;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
+#6187500;
+
 IR = 1;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500; //562.5 us units
+#3937500;
 
 IR = 0;
 #600000; 
@@ -237,16 +210,6 @@ IR = 0;
 
 //end code^^^
 IR=1;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
-#562500;
+#6187500;
 end
 endmodule

@@ -1,26 +1,26 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Cal Poly SLO
+// Engineer: Ethan Vosburg and Wyatt Tack
 // 
 // Create Date: 11/29/2023 02:09:10 PM
-// Design Name: 
-// Module Name: IR_Test
-// Project Name: 
-// Target Devices: 
+// Design Name: Robot Arm Top Module
+// Module Name: Robot_Arm
+// Project Name: Robotic Arm
+// Target Devices: Baysys 3 Development Board
 // Tool Versions: 
-// Description: 
+// Description: Top module for the robotic arm linking all modules together
 // 
 // Dependencies: 
 // 
-// Revision:
+// Revision: 1.0
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module IR_Test(
+module Robot_Arm(
     // Input Ports
     input clk,
     input IR,

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
-| Date         : Thu Dec  7 22:15:18 2023
+| Date         : Fri Dec  8 20:22:59 2023
 | Host         : ETHANVOSBURAA6F running 64-bit major release  (build 9200)
 | Command      : report_methodology -file IR_Test_methodology_drc_routed.rpt -pb IR_Test_methodology_drc_routed.pb -rpx IR_Test_methodology_drc_routed.rpx
 | Design       : IR_Test
@@ -23,11 +23,11 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 176
+             Violations found: 173
 +-----------+------------------+-----------------------------+------------+
 | Rule      | Severity         | Description                 | Violations |
 +-----------+------------------+-----------------------------+------------+
-| TIMING-17 | Critical Warning | Non-clocked sequential cell | 176        |
+| TIMING-17 | Critical Warning | Non-clocked sequential cell | 173        |
 +-----------+------------------+-----------------------------+------------+
 
 2. REPORT DETAILS
@@ -494,420 +494,405 @@ Related violations: <none>
 
 TIMING-17#93 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_0/q_reg[0]/C is not reached by a timing clock
+The clock pin POS_ACC_0/q_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#94 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_0/q_reg[1]/C is not reached by a timing clock
+The clock pin POS_ACC_0/q_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#95 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_0/q_reg[2]/C is not reached by a timing clock
+The clock pin POS_ACC_0/q_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#96 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_0/q_reg[3]/C is not reached by a timing clock
+The clock pin POS_ACC_0/q_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#97 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_0/q_reg[4]/C is not reached by a timing clock
+The clock pin POS_ACC_0/q_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#98 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_0/q_reg[5]/C is not reached by a timing clock
+The clock pin POS_ACC_0/q_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#99 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_0/q_reg[6]/C is not reached by a timing clock
+The clock pin POS_ACC_0/q_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#100 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_0/q_reg[7]/C is not reached by a timing clock
+The clock pin POS_ACC_1/q_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#101 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_1/q_reg[0]/C is not reached by a timing clock
+The clock pin POS_ACC_1/q_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#102 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_1/q_reg[1]/C is not reached by a timing clock
+The clock pin POS_ACC_1/q_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#103 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_1/q_reg[2]/C is not reached by a timing clock
+The clock pin POS_ACC_1/q_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#104 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_1/q_reg[3]/C is not reached by a timing clock
+The clock pin POS_ACC_1/q_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#105 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_1/q_reg[4]/C is not reached by a timing clock
+The clock pin POS_ACC_1/q_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#106 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_1/q_reg[5]/C is not reached by a timing clock
+The clock pin POS_ACC_1/q_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#107 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_1/q_reg[6]/C is not reached by a timing clock
+The clock pin POS_ACC_2/q_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#108 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_1/q_reg[7]/C is not reached by a timing clock
+The clock pin POS_ACC_2/q_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#109 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_2/q_reg[0]/C is not reached by a timing clock
+The clock pin POS_ACC_2/q_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#110 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_2/q_reg[1]/C is not reached by a timing clock
+The clock pin POS_ACC_2/q_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#111 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_2/q_reg[2]/C is not reached by a timing clock
+The clock pin POS_ACC_2/q_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#112 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_2/q_reg[3]/C is not reached by a timing clock
+The clock pin POS_ACC_2/q_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#113 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_2/q_reg[4]/C is not reached by a timing clock
+The clock pin POS_ACC_2/q_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#114 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_2/q_reg[5]/C is not reached by a timing clock
+The clock pin PWM_D_0/duty_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#115 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_2/q_reg[6]/C is not reached by a timing clock
+The clock pin PWM_D_0/duty_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#116 Critical Warning
 Non-clocked sequential cell  
-The clock pin POS_ACC_2/q_reg[7]/C is not reached by a timing clock
+The clock pin PWM_D_0/duty_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#117 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/duty_reg[0]/C is not reached by a timing clock
+The clock pin PWM_D_0/duty_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#118 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/duty_reg[1]/C is not reached by a timing clock
+The clock pin PWM_D_0/duty_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#119 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/duty_reg[2]/C is not reached by a timing clock
+The clock pin PWM_D_0/duty_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#120 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/duty_reg[3]/C is not reached by a timing clock
+The clock pin PWM_D_0/duty_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#121 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/duty_reg[4]/C is not reached by a timing clock
+The clock pin PWM_D_0/duty_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#122 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/duty_reg[5]/C is not reached by a timing clock
+The clock pin PWM_D_0/period_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#123 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/duty_reg[6]/C is not reached by a timing clock
+The clock pin PWM_D_0/period_reg[10]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#124 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/duty_reg[7]/C is not reached by a timing clock
+The clock pin PWM_D_0/period_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#125 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/period_reg[0]/C is not reached by a timing clock
+The clock pin PWM_D_0/period_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#126 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/period_reg[10]/C is not reached by a timing clock
+The clock pin PWM_D_0/period_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#127 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/period_reg[1]/C is not reached by a timing clock
+The clock pin PWM_D_0/period_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#128 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/period_reg[2]/C is not reached by a timing clock
+The clock pin PWM_D_0/period_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#129 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/period_reg[3]/C is not reached by a timing clock
+The clock pin PWM_D_0/period_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#130 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/period_reg[4]/C is not reached by a timing clock
+The clock pin PWM_D_0/period_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#131 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/period_reg[5]/C is not reached by a timing clock
+The clock pin PWM_D_0/period_reg[8]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#132 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/period_reg[6]/C is not reached by a timing clock
+The clock pin PWM_D_0/period_reg[9]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#133 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/period_reg[7]/C is not reached by a timing clock
+The clock pin PWM_D_0/pwm_out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#134 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/period_reg[8]/C is not reached by a timing clock
+The clock pin PWM_D_1/duty_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#135 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/period_reg[9]/C is not reached by a timing clock
+The clock pin PWM_D_1/duty_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#136 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_0/pwm_out_reg/C is not reached by a timing clock
+The clock pin PWM_D_1/duty_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#137 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/duty_reg[0]/C is not reached by a timing clock
+The clock pin PWM_D_1/duty_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#138 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/duty_reg[1]/C is not reached by a timing clock
+The clock pin PWM_D_1/duty_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#139 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/duty_reg[2]/C is not reached by a timing clock
+The clock pin PWM_D_1/duty_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#140 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/duty_reg[3]/C is not reached by a timing clock
+The clock pin PWM_D_1/duty_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#141 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/duty_reg[4]/C is not reached by a timing clock
+The clock pin PWM_D_1/duty_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#142 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/duty_reg[5]/C is not reached by a timing clock
+The clock pin PWM_D_1/period_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#143 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/duty_reg[6]/C is not reached by a timing clock
+The clock pin PWM_D_1/period_reg[10]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#144 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/duty_reg[7]/C is not reached by a timing clock
+The clock pin PWM_D_1/period_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#145 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/period_reg[0]/C is not reached by a timing clock
+The clock pin PWM_D_1/period_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#146 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/period_reg[10]/C is not reached by a timing clock
+The clock pin PWM_D_1/period_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#147 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/period_reg[1]/C is not reached by a timing clock
+The clock pin PWM_D_1/period_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#148 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/period_reg[2]/C is not reached by a timing clock
+The clock pin PWM_D_1/period_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#149 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/period_reg[3]/C is not reached by a timing clock
+The clock pin PWM_D_1/period_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#150 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/period_reg[4]/C is not reached by a timing clock
+The clock pin PWM_D_1/period_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#151 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/period_reg[5]/C is not reached by a timing clock
+The clock pin PWM_D_1/period_reg[8]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#152 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/period_reg[6]/C is not reached by a timing clock
+The clock pin PWM_D_1/period_reg[9]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#153 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/period_reg[7]/C is not reached by a timing clock
+The clock pin PWM_D_1/pwm_out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#154 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/period_reg[8]/C is not reached by a timing clock
+The clock pin PWM_D_2/duty_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#155 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/period_reg[9]/C is not reached by a timing clock
+The clock pin PWM_D_2/duty_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#156 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_1/pwm_out_reg/C is not reached by a timing clock
+The clock pin PWM_D_2/duty_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#157 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/duty_reg[0]/C is not reached by a timing clock
+The clock pin PWM_D_2/duty_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#158 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/duty_reg[1]/C is not reached by a timing clock
+The clock pin PWM_D_2/duty_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#159 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/duty_reg[2]/C is not reached by a timing clock
+The clock pin PWM_D_2/duty_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#160 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/duty_reg[3]/C is not reached by a timing clock
+The clock pin PWM_D_2/duty_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#161 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/duty_reg[4]/C is not reached by a timing clock
+The clock pin PWM_D_2/duty_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#162 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/duty_reg[5]/C is not reached by a timing clock
+The clock pin PWM_D_2/period_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#163 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/duty_reg[6]/C is not reached by a timing clock
+The clock pin PWM_D_2/period_reg[10]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#164 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/duty_reg[7]/C is not reached by a timing clock
+The clock pin PWM_D_2/period_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#165 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/period_reg[0]/C is not reached by a timing clock
+The clock pin PWM_D_2/period_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#166 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/period_reg[10]/C is not reached by a timing clock
+The clock pin PWM_D_2/period_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#167 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/period_reg[1]/C is not reached by a timing clock
+The clock pin PWM_D_2/period_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#168 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/period_reg[2]/C is not reached by a timing clock
+The clock pin PWM_D_2/period_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#169 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/period_reg[3]/C is not reached by a timing clock
+The clock pin PWM_D_2/period_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#170 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/period_reg[4]/C is not reached by a timing clock
+The clock pin PWM_D_2/period_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#171 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/period_reg[5]/C is not reached by a timing clock
+The clock pin PWM_D_2/period_reg[8]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#172 Critical Warning
 Non-clocked sequential cell  
-The clock pin PWM_D_2/period_reg[6]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#173 Critical Warning
-Non-clocked sequential cell  
-The clock pin PWM_D_2/period_reg[7]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#174 Critical Warning
-Non-clocked sequential cell  
-The clock pin PWM_D_2/period_reg[8]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#175 Critical Warning
-Non-clocked sequential cell  
 The clock pin PWM_D_2/period_reg[9]/C is not reached by a timing clock
 Related violations: <none>
 
-TIMING-17#176 Critical Warning
+TIMING-17#173 Critical Warning
 Non-clocked sequential cell  
 The clock pin PWM_D_2/pwm_out_reg/C is not reached by a timing clock
 Related violations: <none>

@@ -37,7 +37,7 @@ module DEC(
     STATES state, next_state = S0;
 
     // Clock logic
-    always_ff@(posedge clk) begin
+    always_ff@(negedge clk) begin
         state <= next_state;
         q = 2'b00;
         clear = 1'b0;

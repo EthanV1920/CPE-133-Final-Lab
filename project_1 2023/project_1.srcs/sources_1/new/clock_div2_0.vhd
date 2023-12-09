@@ -35,7 +35,7 @@ entity clk_div2_0 is
 end clk_div2_0;
 
 architecture my_clk_div of clk_div2_0 is
-   constant max_count : integer := (28124);
+   constant max_count : integer := (28124); -- Only line changed is the MAX_COUNT constant
    signal tmp_clk : std_logic := '0'; 
 begin
    my_div: process (clk,tmp_clk)              

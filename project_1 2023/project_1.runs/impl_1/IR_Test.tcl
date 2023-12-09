@@ -129,6 +129,7 @@ set rc [catch {
   set_param general.maxThreads 8
   set_param chipscope.maxJobs 1
   set_param synth.incrementalSynthesisCache C:/Users/ethanvosburg/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-592-ETHANVOSBURAA6F/incrSyn
+  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 4  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a35ticpg236-1L
