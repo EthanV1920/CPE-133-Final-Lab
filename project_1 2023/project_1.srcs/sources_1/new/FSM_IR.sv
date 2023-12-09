@@ -22,9 +22,12 @@
 
 
 module FSM_IR(
-input clk,
-input IR,
-output logic [1:0] PWM_0, PWM_1, PWM_2
+    // Inputs
+    input clk, // Clock input
+    input IR, // IR input
+
+    // Outputs
+    output logic [1:0] PWM_0, PWM_1, PWM_2 // PWM outputs
     );
     
     typedef enum {Start, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, 
