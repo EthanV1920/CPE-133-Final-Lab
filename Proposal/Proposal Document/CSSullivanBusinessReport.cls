@@ -136,7 +136,7 @@
 
 \fancyhead[L]{\reporttitle} % Left header
 \fancyhead[C]{} % Center header
-\fancyhead[R]{\rightheadercontent} % Right header
+% \fancyhead[R]{\rightheadercontent} % Right header
 
 \fancyfoot[L]{} % Left footer
 \fancyfoot[C]{\thepage~of \pageref{LastPage}} % Center footer
@@ -290,7 +290,7 @@
 
 \captionsetup{skip=6pt} % Vertical whitespace between figures/tables and the caption (default is 10pt)
 \captionsetup{font={bf,small}} % Define caption font style
-\captionsetup{justification=raggedright, singlelinecheck=false} % Left-align captions
+% \captionsetup{justification=justified, singlelinecheck=false} % Left-align captions
 
 % The sidenotes package defines 4 custom caption styles for wide tables, wide figures, margin tables and margin figures
 % To style these the same as in-text tables and figures, set these 4 styles to the same styling values
